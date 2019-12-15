@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<title>
+Contact Us|Suruchi
+</title>
+<html>
+</html>
+<head>
+</head>
+<style>
+h1{
+	background-color:#ff4d4d;
+	margin-top:0px;
+	text-align:right;
+	color:  #330000;font-size:65px;
+	height:179px;
+	padding-right:20px;
+}
+p{
+	font-size:17px;
+	
+	padding-top:0px;
+	
+}
+
+ul {
+ margin-top:0px;
+  font-size:20px;
+  list-style-type: none;
+  padding-left:0px;
+  padding-right:0px;
+  overflow: hidden;
+  background-color: #ff4d4d;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 81px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: 	 #330000;
+}
+
+.active {
+  background-color:  	 #330000;
+}
+.habout{
+text align:right;
+}
+.endpage{
+background-color:#ff4d4d;
+color:  #330000;
+text-align:center;
+font-size:20px;
+height:110px;
+}
+</style>
+<script>
+function Redirect() {
+               window.location = "file:///C:/Users/DELL/Desktop/Web%20Project%20NewsFactory/Headlinepage.html";
+            }
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<body> 
+</body>
+<h1> Suruchi <p> The orignal Taste of Belgaum </p><ul>
+  <li><a  href="index.html">Home</a></li>
+  <li><a href="foodgallery.html">Food Gallery</a></li>
+  <li><a href="menu.html">Menu</a></li>
+ <li><a  href="bookatable.html">Book a table</a></li>
+  <li><a class="active"href="#a">Contact Us</a></li>
+  
+</ul></h1>
+<h2>Please contact us if you have any issues or queries.</h2><hr/><br/>
+<h3>Address</h3>
+Suruchi,<br/>Khanapur Road,<br/>Udyambag,<br/>Belagavi-590006.<br/><hr/><br/>
+<h3>Email id</h3>
+suruchihotel@gmail.com.<br/><hr/><br/>
+<h3>contact Number</h3>
+9986248988<br/>
+7204412369<br/><hr/><br/>
+<h3>Google Location</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30101.679906319016!2d74.49108733283943!3d15.4302880898273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe05887a456d5f78d!2sSuruchi%20Hotel!5e0!3m2!1sen!2sin!4v1573901504113!5m2!1sen!2sin" width="400" height="300" frameborder="0" 
+style="border:0;" allowfullscreen=""></iframe><br/><br/>
+
+
+
+
+<div class="endpage"><br/>Enjoy the Taste !<br/><br/>Suruchi,Belgaum</div>
+
