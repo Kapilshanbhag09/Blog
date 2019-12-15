@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<title>
+Suruchi Book Table
+</title>
+<html>
+</html>
+<head>
+
+</head>
+<style>
+h1{
+	background-color:#ff4d4d;
+	margin-top:0px;
+	text-align:right;
+	color:  #330000;font-size:65px;
+	height:179px;
+	padding-right:20px;
+}
+p{
+	font-size:17px;
+	
+	padding-top:0px;
+	
+}
+
+ul {
+ margin-top:0px;
+  font-size:20px;
+  list-style-type: none;
+  padding-left:0px;
+  padding-right:0px;
+  overflow: hidden;
+  background-color: #ff4d4d;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 81px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: 	 #330000;
+}
+
+.active {
+  background-color:  	 #330000;
+}
+.habout{
+text align:right;
+}
+.endpage{
+background-color:#ff4d4d;
+color:  #330000;
+text-align:center;
+font-size:20px;
+height:110px;
+}
+</style>
+<script>
+function Redirect() {
+               window.location = "file:///C:/Users/DELL/Desktop/Web%20Project%20NewsFactory/Headlinepage.html";
+            }
+booked(){
+  alert("Table has beeen booked.");
+}
+</script>
+<body> 
+</body>
+<h1> Suruchi <p> The orignal Taste of Belgaum </p><ul>
+  <li><a  href="index.html">Home</a></li>
+  <li><a href="foodgallery.html">Food Gallery</a></li>
+  <li><a href="menu.html">Menu</a></li>
+ <li><a class="active" href="#">Book a table</a></li>
+  <li><a href="file:///D:/Web%20Project%20Suruchi/Contact%20Us.html">Contact Us</a></li>
+  
+</ul></h1>
+<h2>Worried of not getting seat when you come with Family and Friends?</h2>
+<img src="Table.jpg" width="430" height="175" >
+<h3>We have a sloution for you!<br/>Book the table and your table will be reserved for you when you come with your
+Family or Friends. <br/><br/>
+
+<p id="menu">Fill the form to book your table.<p><br/><hr/>
+<form >
+Your Name:<br/>
+ <input type="text"  maxlength="60"><br/>
+Mobile Number:<br/>
+ <input type="text"  placeholder="10 digit mobile number" maxlength="10"><br/>
+ Email Id:<br/>
+ <input type="email" placeholder="Enter valid emailid" ><br/>
+ No of tables:<br/>
+ <input type="text" placeholder="(1-9)tables 1 table=5 people " maxlength="1"><br/>
+ Date:<br/>
+ <input type="text" placeholder="dd/mm/year" maxlength="10"><br/>
+ Time:<br/>
+ <input type="text" placeholder="hr-min" maxlength="5"><br/><br/>
+ <input type="submit" value="Submit">
+ </form>
+ 
+<div class="endpage"><br/>Enjoy the Taste !<br/><br/>Suruchi,Belgaum</div>
+
