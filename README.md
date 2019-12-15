@@ -1,2 +1,2 @@
-# blog
-My first blog
+# Suruchi
+Hotel Web page
